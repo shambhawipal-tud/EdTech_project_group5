@@ -1,0 +1,659 @@
+:: StoryTitle
+The Dutch Life
+
+
+:: StoryData
+{
+  "ifid": "72DA6588-8BBF-4B87-8BEB-5BAF1106E10B",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "Welcome to the Netherlands!",
+  "zoom": 0.6
+}
+
+
+:: Arrive at Nora's house unannounced {"position":"862.5,1850","size":"100,100"}
+$name: Hey! Wanna have some drinks and play board games?
+
+Nora: But I already have other things planned for tonight.
+
+$name: Oh that's too bad, I was bored at home so I came to play some board games.
+Nora: It's alright, you are new here but you are not supposed to come unannounced to someone's place. Always make plans with people beforehand, based on their availability. 
+
+[[Restart from the last checkpoint->Move to Chapter 2]]
+
+
+
+
+:: Ask for details {"position":"600,750","size":"100,100"}
+Your teammates explains the details of what they have worked on, and requests you to be on time next time.
+
+//Your takeaway: The Dutch value punctuality, thus you must respect this, and adapt to it.//
+
+[[Start working on the assignment]]
+
+<img src = "https://www.teachhub.com/wp-content/uploads/2020/09/Sept-9-Benefits-of-Group-Work_web.jpg" width="60%" 
+height="60%" />
+
+
+:: Be direct and let the team know what you think {"position":"825,1025","size":"100,100"}
+You let your teammate know that there is a more efficient way of doing it. You discuss it with the team, and come to the conclusion that you were right. They appreciate you speaking up and your idea, and you continue to finish the assignment.
+
+//Good job! The Dutch are direct people. When they speak up about an idea you proposed, they don't mean to be rude or offensive. They don't mean to attack you as a person, but are just trying to state their opinion. It's a 2 way street: they appreciate when you do the same.//
+
+[[Continue the assignment]]
+
+<img src = "https://img.freepik.com/premium-photo/group-young-asian-business-people-with-creative-work-talk-exchange-ideas-shared-meeting_37714-2067.jpg?w=2000" width="60%" 
+height="60%"/>
+
+
+:: Bike to Nora's place {"position":"300,2525","size":"100,100"}
+Did you know that the Netherlands is widely recognized as one of the most bike-friendly countries in the world, with cycling deeply ingrained in Dutch culture and lifestyle. Cycling infrastructure in the Netherlands is extensive, with dedicated bike lanes, traffic signals, and parking facilities making it easy and safe for people to cycle for transportation and recreation.
+
+[[Reached->Reached Nora's place with rainwear]] 
+<img src= "https://www.expatica.com/app/uploads/sites/3/2014/05/cycling-in-the-netherlands.jpg"  width="60%" height="60%" />
+
+
+
+:: Bike to Nora's place late {"position":"987.5,2475","size":"100,100"}
+Did you know that the Netherlands is widely recognized as one of the most bike-friendly countries in the world, with cycling deeply ingrained in Dutch culture and lifestyle. Cycling infrastructure in the Netherlands is extensive, with dedicated bike lanes, traffic signals, and parking facilities making it easy and safe for people to cycle for transportation and recreation.
+
+[[Reached->Reached Nora's place with rainwear late]] 
+<img src= "https://www.expatica.com/app/uploads/sites/3/2014/05/cycling-in-the-netherlands.jpg"  width="60%" height="60%" />
+
+
+:: Bike to Nora's place without rain wear {"position":"550,2525","size":"100,100"}
+Did you know that the Netherlands is widely recognized as one of the most bike-friendly countries in the world, with cycling deeply ingrained in Dutch culture and lifestyle. Cycling infrastructure in the Netherlands is extensive, with dedicated bike lanes, traffic signals, and parking facilities making it easy and safe for people to cycle for transportation and recreation.
+
+To your surprise, it started rianing heavily and you don't have waterproof clothing. So you are completely drenched in water now.
+
+[[Reached->Reached Nora's place without rainwear]] 
+<img src= "https://www.expatica.com/app/uploads/sites/3/2014/05/cycling-in-the-netherlands.jpg"  width="60%" height="60%" />
+
+
+:: Bike to Nora's place without rain wear late {"position":"1325,2475","size":"100,100"}
+Did you know that the Netherlands is widely recognized as one of the most bike-friendly countries in the world, with cycling deeply ingrained in Dutch culture and lifestyle. Cycling infrastructure in the Netherlands is extensive, with dedicated bike lanes, traffic signals, and parking facilities making it easy and safe for people to cycle for transportation and recreation.
+
+To your surprise, it started rianing heavily and you don't have waterproof clothing. So you are completely drenched in water now.
+
+[[Reached->Reached Nora's place without rainwear late]] 
+<img src= "https://www.expatica.com/app/uploads/sites/3/2014/05/cycling-in-the-netherlands.jpg"  width="60%" height="60%" />
+
+
+:: Boardgame night {"position":"750,1975","size":"100,100"}
+You have to leave for Nora's house.
+
+What would you do?
+
+* [[Leave right on time so you are not late for the boardgame night->Leave on time]] 
+* [[Be casual and leave a little late->Leave late]]
+
+<img src= "https://image1.masterfile.com/getImage/NjEwOC0wNTg2OTU3MmVuLjAwMDAwMDAw=AE22Ah/6108-05869572en_Masterfile.jpg"  width="70%" height="70%" />
+
+
+:: Call right choice {"position":"550,1650","size":"100,100"}
+Good job! you made the right choice of first calling Nora.
+
+[[Continue->Schedule Boardgame session]] 
+
+<img src = "https://i.pinimg.com/originals/f2/7a/b0/f27ab095d3e3db34abb01d1f9a4b7236.gif" width="70%" height ="70%" />
+
+
+:: Check the weather app {"position":"300,2350","size":"100,100"}
+You made the right choice. Always check the weather and be prepared for rains in the Netherlands. 
+The weather app states that there are chances of rain. You carry your waterproof clothing and shoes with you!
+
+How would you like to go?
+
+* [[Bike to Nora's place->Bike to Nora's place]] 
+* [[Take the tram->Take the tram]]  
+<img src= "https://nltimes.nl/sites/nltimes.nl/files/styles/news_article_full/public/2019/03/depositphotos_169810258_l-2015.jpg?h=66dff66d"  width="60%" height="60%" />
+
+
+
+:: Check the weather app late {"position":"1050,2350","size":"100,100"}
+You made the right choice. Always check the weather and be prepared for rains in the Netherlands. 
+The weather app states that there are chances of rain. You carry your waterproof clothing and shoes with you!
+
+How would you like to go?
+
+* [[Bike to Nora's place->Bike to Nora's place late]] 
+* [[Take the tram->Take the tram late]]  
+<img src= "https://nltimes.nl/sites/nltimes.nl/files/styles/news_article_full/public/2019/03/depositphotos_169810258_l-2015.jpg?h=66dff66d"  width="60%" height="60%" />
+
+
+:: Continue the assignment {"position":"800,1200","size":"100,100"}
+You continue working on the project. You're at the end of the session when you're deciding on what each person has to do before the next meeting. You are assigned a particular task, but are not sure if you will be able to finish it, because you are busy and have to move into a new apartment this week. 
+
+What would you do?
+
+* [[Tell your teammates you might not be able to finish it]]
+
+* [[Don't say anything and hope that you will finish it]]
+
+<img src = "https://www.standupspeakup.org.uk/wp-content/uploads/2020/08/Nervous-student.jpg"  width="60%" 
+height="60%"/>
+
+
+:: Directly leave for Nora's house {"position":"650,2350","size":"100,100"}
+You made the wrong choice. The weather is very unpredictable and you should always be prepared for rains in the the Netherlands.
+However, you are too excited to think about the weather. You pick up your board games and a couple of beers and decided to leave the house. 
+
+How would you like to go?
+
+* [[Bike to Nora's place->Bike to Nora's place without rain wear]] 
+* [[Take the tram->Take the tram without rain wear]]  
+<img src= "https://i.pinimg.com/originals/26/1c/4d/261c4d97ee0aee53f5cf2069ee3bb4d4.gif"  width="40%" height="40%" />
+
+
+
+:: Directly leave for Nora's house late {"position":"1375,2350","size":"100,100"}
+You made the wrong choice. The weather is very unpredictable and you should always be prepared for rains in the the Netherlands.
+However, you are too excited to think about the weather. You pick up your board games and a couple of beers and decided to leave the house. 
+
+How would you like to go?
+
+* [[Bike to Nora's place->Bike to Nora's place without rain wear late]] 
+* [[Take the tram->Take the tram without rain wear late]]  
+
+<img src= "https://i.pinimg.com/originals/26/1c/4d/261c4d97ee0aee53f5cf2069ee3bb4d4.gif"  width="40%" height="40%" />
+
+
+:: Don't say anything and hope that you will finish it {"position":"875,1325","size":"100,100"}
+You are too busy with moving, and hence cannot finish your part. Others relied on you, and now they can't continue with their part. 
+
+//Your takeaway: Be honest in communicating your availability, everyone will understand if you are busy. //
+
+You were late but finally managed to finish the assignment on time. Good job!
+
+[[Finish the assignment]]
+
+<img src="https://zinginstruments.com/wp-content/uploads/hourglass-and-a-sunset.png"  width="60%" 
+height="60%"/>
+
+
+:: Final Score {"position":"875,3975","size":"100,100"}
+Thank you for playing our game!
+
+<img src= "https://i.pinimg.com/originals/36/de/f8/36def811510093b67cda857a4220e0de.gif"  width="60%" height="60%" />
+
+
+
+:: Finish the assignment {"position":"800,1475","size":"100,100"}
+Congratulations! You successfully completed the assignment. We hope this gave you some kind of insight into the behaviour, culture and general outlook of the new country you are moving to. Play the next chapter for more such scenarios!
+
+[[Move to Chapter 2]]
+
+<img src="https://kanbanzone.com/wp-content/uploads/2020/05/multi-cultural-people-3184419-scaled.jpg" width="60%" 
+height="60%" />
+
+
+:: Go to Nora's House {"position":"500,2225","size":"100,100"}
+You are leaving for Nora's house.
+
+What would you like to do?
+
+* [[Check the weather app for rains->Check the weather app]] 
+
+* [[Just leave the house because you are excited to play the boardgames->Directly leave for Nora's house]]
+
+<img src= "https://www.yourweather.co.uk/sharepic/185346.jpg"  width="60%" height="60%" />
+
+
+
+:: Go to Nora's House late {"position":"1225,2225","size":"100,100"}
+You are leaving for Nora's house.
+
+What would you like to do?
+
+* [[Check the weather app for rains->Check the weather app late]] 
+
+* [[Just leave the house because you are excited to play the boardgames->Directly leave for Nora's house late]]
+
+<img src= "https://www.yourweather.co.uk/sharepic/185346.jpg"  width="60%" height="60%" />
+
+
+:: Go unannounced to friend's place {"position":"862.5,1725","size":"100,100"}
+You pick up a couple of beers and a board game 
+
+[[Leave for Nora's house->Arrive at Nora's house unannounced]]. 
+
+
+
+
+:: Just go in and hope for the best. {"position":"600,625","size":"100,100"}
+You reach the project meeting 30 minutes late. You figure, well that's alright! Things hardly start on time anyway right? However, you see all your teammates working hard, and have already made some progress. You sit down and ask for details.
+
+[[Ask for details]]
+
+<img src = "https://ychef.files.bbci.co.uk/976x549/p04sdr74.jpg"  width="60%" 
+height="60%"/>
+
+
+:: Leave late {"position":"1050,2100","size":"100,100"}
+Dutch are very punctual, whether it comes to work or just casual meetups. So try to be on time if you have any appointments with someone. However, if you are late due to unavoidable reasons, let them know in advance of the delay.
+
+[[Go to Nora's house->Go to Nora's House late]] 
+
+<img src= "https://www.meme-arsenal.com/memes/3a6a21f738b48806f2ca2b997903bc93.jpg"  width="40%" height="40%" />
+
+
+:: Leave on time {"position":"650,2100","size":"100,100"}
+Dutch are very punctual, whether it comes to work or just casual meetups. So you made the right choice.
+
+[[Go to Nora's house->Go to Nora's House]] 
+
+<img src= "https://media.tenor.com/qF2newraXz0AAAAC/bart-simpson.gif"  width="70%" height="70%" />
+
+
+:: Let it be, and go with what your teammate suggested {"position":"675,1025","size":"100,100"}
+You go with the approach your teammate suggested, and now you're discussing the next question. Yourpropose a method of solving it, however your teammate says that there are better ways of doing it. You agree with his methods, but now feel like you could have spoken up for the previous question. 
+
+//Your takeaway: The Dutch are direct people. When they speak up about an idea you proposed, they don't mean to be rude or offensive. They don't mean to attack you as a person, but are just trying to state their opinion. It's a 2 way street: they appreciate when you do the same.//
+
+You now give your opinion on the previous question. They appreciate your opinion, and agree that the problem could be solved in a more efficient way. 
+
+[[Continue the assignment]]
+
+
+
+
+:: Move to Chapter 2 {"position":"800,1600","size":"100,100"}
+You enjoyed working with your project partners and want to get acquainted outide the University work. You think playing boardgames would be a lot of fun and in that way, you'll also get to meet new people.
+Your friend Nora already told you that she likes boardgames.
+
+What would you like to do?
+* [[Call and schedules a boardgame night with  Nora->Call right choice]] 
+
+* [[Directly go to the Nora's place->Not call wrong choice]]
+
+<img src="https://d2jyir0m79gs60.cloudfront.net/news/images/making-friends-in-college-lg.png"  width="60%" 
+height="60%" />
+
+
+:: Nora checks her Agenda {"position":"750,1850","size":"100,100"}
+Nora checks her calendar.
+Nora: I am available on Saturday from 18:00 till 20:00. Lets organize the boardgame night with the group!
+
+You and your friends finalize the staurday night to play board games at Nora's house.
+
+ [[Finally the boardgame night is here->Boardgame night]] 
+ 
+ <img src= "https://cdn.images.express.co.uk/img/dynamic/109/590x/september-facts-calendar-848375.jpg"  width="70%" height="70%" />
+
+
+:: Not call wrong choice {"position":"1025,1625","size":"100,100"}
+You made a wrong choice. Always make plans with people in advance.
+
+[[Continue->Go unannounced to friend's place]] 
+
+<img src="https://media.tenor.com/W4WhmXg4NLEAAAAd/tom-and-jerry-tom.gif" width="70%" height ="70%" />
+
+
+:: Play boardgames {"position":"875,2875","size":"100,100"}
+You had a lot of fun playing boardgames with your new friends. Now it's time to say goodbye!
+
+[[Goodbye!->Thank you for playing]] 
+<img src= "https://media.timeout.com/images/105803367/750/422/image.jpg"  width="60%" height="60%" />
+
+
+:: Play! {"position":"700,500","size":"100,100"}
+You have been assigned to work on a project with a team of Dutch people. You are excited about this opportunity but also a little nervous as you have never worked with people from another culture before.
+
+What do you do?
+
+* [[Research Dutch culture and customs to prepare yourself for the assignment.]]
+
+* [[Just go in and hope for the best.]]
+
+<img src = "https://abaforlawstudents.com/wp-content/uploads/2018/10/exams-1.jpg" width="60%" 
+height="60%" />
+
+
+:: Question1 {"position":"875,3150","size":"100,100"}
+Question 1: Is punctuality an important aspect of Dutch lifestyle? 
+
+<label><<radiobutton "$punctual" "yes" autocheck>> Yes</label>
+<label><<radiobutton "$punctual" "no" autocheck>> No</label>
+<<if $punctual is "yes">>
+	<<set $score to $score + 1>>
+<</if>>
+[[Reveal Answer->Reveal Q1]] 
+
+
+
+
+:: Question2 {"position":"875,3275","size":"100,100"}
+Question 2: Are Dutch direct in communication?
+
+<label><<radiobutton "$direct" "yes" autocheck>> Yes</label>
+<label><<radiobutton "$direct" "no" autocheck>> No</label>
+
+<<if $direct is "yes">>
+	<<set $score to $score + 1>>
+<</if>>
+
+[[Reveal answer->Reveal Q2]] 
+
+
+:: Question3 {"position":"875,3400","size":"100,100"}
+Question 3: What would you do if you have to plan en event with a friend?
+
+<label><<radiobutton "$plan" "call" autocheck>> Call the friend to plan the event</label>
+<label><<radiobutton "$plan" "arrive" autocheck>> Arrive at the friend's place unannounced</label>
+
+<<if $plan is "call">>
+	<<set $score to $score + 1>>
+<</if>>
+
+[[Reveal answer->Reveal Q3]] 
+
+
+:: Question4 {"position":"875,3525","size":"100,100"}
+Question 4: How can you prepare yourself for the weather?
+
+<label><<checkbox "$weather" "app" autocheck>> Check the weather apps</label>
+<label><<checkbox "$weather" "clothes" autocheck>> Keep your waterproof clothing with you</label>
+<label><<checkbox "$weather" "nothing" autocheck>> Just deal with the situations when the time comes</label>
+
+<<if $weather is "app">>
+	<<set $score to $score + 1>>
+<</if>>
+
+<<if $weather is "clothes">>
+	<<set $score to $score + 1>>
+<</if>>
+
+[[Reveal answer->Reveal Q4]] 
+
+
+:: Question5 {"position":"875,3650","size":"100,100"}
+Question 5: For using public transport, which apps can you use for travel advice in the Netherlands?
+
+<label><<checkbox "$travel" "NS" autocheck>> NS</label>
+<label><<checkbox "$travel" "RATP" autocheck>> RATP</label>
+<label><<checkbox "$travel" "9292" autocheck>> 9292</label>
+
+<<if $travel is "NS">>
+	<<set $score to $score + 1>>
+<</if>>
+
+<<if $travel is "9292">>
+	<<set $score to $score + 1>>
+<</if>>
+
+[[Reveal answer->Reveal Q5]] 
+
+
+:: Question6 {"position":"875,3775","size":"100,100"}
+Question 5: What is the most common mode of transport in the Netherlands?
+
+<label><<radiobutton "$transport" "Trains" autocheck>> Trains</label>
+<label><<radiobutton "$transport" "Cars" autocheck>> Cars</label>
+<label><<radiobutton "$transport" "Bike" autocheck>> Bike</label>
+<label><<radiobutton "$transport" "Trams" autocheck>> Trams</label>
+<label><<radiobutton "$transport" "Metros" autocheck>> Metros</label>
+
+<<if $transport is "Bike">>
+	<<set $score to $score + 1>>
+<</if>>
+
+[[Reveal answer->Reveal Q6]] 
+
+
+:: Reached Nora's place with rainwear {"position":"325,2675","size":"100,100"}
+You enter a room full of people ready to play boardgames. However, you are confused if everyone would understand English. You finally introduce yourself to everyone in the room.
+
+$name: Hey! I am $name. Nice to meet you all!
+
+Friend 1: Hello! I am Jeroen. Nice to meet you too. And welcome to our boardgame night.
+
+$name: Does everyone speak English here?
+
+Nora: Yeah. Most people in the Netherlands speak English fluently because this is a country full of many internationals. So we all just adapt to English :)
+
+[[Play boardgames->Play boardgames]] 
+<img src= "https://i0.wp.com/movingtips.wpengine.com/wp-content/uploads/2021/05/house-warming-prepare.jpg?w=336&ssl=1"  width="60%" height="60%" />
+
+
+
+:: Reached Nora's place with rainwear late {"position":"1050,2675","size":"100,100"}
+You enter a room full of people ready to play boardgames. However, you are confused if everyone would understand English. You finally introduce yourself to everyone in the room.
+
+$name: Hey! I am $name. Nice to meet you all!
+
+Friend 1: Hello! I am Jeroen. Nice to meet you too. And welcome to our boardgame night.
+
+$name: Does everyone speak English here?
+
+Nora: Yeah. Most people in the Netherlands speak English fluently because this is a country full of many internationals. So we all just adapt to English :)
+
+[[Play boardgames->Play boardgames]] 
+<img src= "https://i0.wp.com/movingtips.wpengine.com/wp-content/uploads/2021/05/house-warming-prepare.jpg?w=336&ssl=1"  width="60%" height="60%" />
+
+
+:: Reached Nora's place without rainwear {"position":"600,2675","size":"100,100"}
+You enter a room full of people ready to play boardgames. However, you are drenched in water so you cleanup before joining others. 
+You are also confused if everyone would understand English. You finally introduce yourself to everyone in the room.
+
+$name: Hey! I am $name. Nice to meet you all!
+
+Friend 1: Hello! I am Jeroen. Nice to meet you too. And welcome to our boardgame night.
+
+$name: Does everyone speak English here?
+
+Nora: Yeah. Most people in the Netherlands speak English fluently because this is a country full of many internationals. So we all just adapt to English :)
+
+[[Play boardgames->Play boardgames]] 
+<img src= "https://i0.wp.com/movingtips.wpengine.com/wp-content/uploads/2021/05/house-warming-prepare.jpg?w=336&ssl=1"  width="60%" height="60%" />
+
+
+:: Reached Nora's place without rainwear late {"position":"1375,2675","size":"100,100"}
+You enter a room full of people ready to play boardgames. However, you are drenched in water so you cleanup before joining others. 
+You are also confused if everyone would understand English. You finally introduce yourself to everyone in the room.
+
+$name: Hey! I am $name. Nice to meet you all!
+
+Friend 1: Hello! I am Jeroen. Nice to meet you too. And welcome to our boardgame night.
+
+$name: Does everyone speak English here?
+
+Nora: Yeah. Most people in the Netherlands speak English fluently because this is a country full of many internationals. So we all just adapt to English :)
+
+[[Play boardgames->Play boardgames]] 
+<img src= "https://i0.wp.com/movingtips.wpengine.com/wp-content/uploads/2021/05/house-warming-prepare.jpg?w=336&ssl=1"  width="60%" height="60%" />
+
+
+:: Research Dutch culture and customs to prepare yourself for the assignment. {"position":"825,625","size":"100,100"}
+You spend some time researching Dutch culture and customs. You learn that the Dutch are very direct in their communication and value punctuality. Armed with this knowledge, you feel more confident about working with your Dutch colleagues. The first meeting with your team is scheduled for tomorrow.
+
+[[You show up a few minutes early to the meeting to make a good impression.]]
+
+<img src = "https://graduate.rice.edu/sites/g/files/bxs3106/files/2020-12/2020.12.Research.jpg"  width="60%" 
+height="60%"/>
+
+
+:: Reveal Q1 {"position":"1050,3150","size":"100,100"}
+Question 1: Is punctuality an important aspect of Dutch lifestyle? 
+
+<label><<radiobutton "$punctual" "yes" autocheck>> Yes</label>
+<label><<radiobutton "$punctual" "no" autocheck>> No</label>
+<<if $punctual is "yes">>
+	<<set $score to $score + 1>>
+<</if>>
+
+The answer is "Yes".
+
+[[Go to Question 2->Question2]] 
+
+
+:: Reveal Q2 {"position":"1050,3325","size":"100,100"}
+Question 2: Are Dutch direct in communication?
+
+<label><<radiobutton "$direct" "yes" autocheck>> Yes</label>
+<label><<radiobutton "$direct" "no" autocheck>> No</label>
+
+The answer is "Yes".
+
+[[Go to Question 3->Question3]] 
+
+
+:: Reveal Q3 {"position":"1050,3475","size":"100,100"}
+Question 3: What would you do if you have to plan en event with a friend?
+
+<label><<radiobutton "$plan" "call" autocheck>> Call the friend to plan the event</label>
+<label><<radiobutton "$plan" "arrive" autocheck>> Arrive at the friend's place unannounced</label>
+
+The answer is "Call the friend to plan the event".
+
+[[Go to Question 4->Question4]] 
+
+
+:: Reveal Q4 {"position":"1050,3625","size":"100,100"}
+Question 4: How can you prepare yourself for the weather?
+
+<label><<checkbox "$weather" "app" autocheck>> Check the weather apps</label>
+<label><<checkbox "$weather" "clothes" autocheck>> Keep your waterproof clothing with you</label>
+<label><<checkbox "$weather" "nothing" autocheck>> Just deal with the situations when the time comes</label>
+
+The answer is:
+"Check the weather apps"
+"Keep your waterproof clothing with you"
+
+[[Go to Question 5->Question5]] 
+
+
+:: Reveal Q5 {"position":"1050,3750","size":"100,100"}
+Question 5: For using public transport, which apps can you use for travel advice in the Netherlands?
+
+<label><<checkbox "$travel" "NS" autocheck>> NS</label>
+<label><<checkbox "$travel" "RATP" autocheck>> RATP</label>
+<label><<checkbox "$travel" "9292" autocheck>> 9292</label>
+
+The answer is:
+"NS"
+"9292"
+
+[[Go to Question 6->Question6]] 
+
+
+:: Reveal Q6 {"position":"1050,3900","size":"100,100"}
+Question 5: What is the most common mode of transport in the Netherlands?
+
+<label><<radiobutton "$transport" "Trains" autocheck>> Trains</label>
+<label><<radiobutton "$transport" "Cars" autocheck>> Cars</label>
+<label><<radiobutton "$transport" "Bike" autocheck>> Bike</label>
+<label><<radiobutton "$transport" "Trams" autocheck>> Trams</label>
+<label><<radiobutton "$transport" "Metros" autocheck>> Metros</label>
+
+The answer is "Bike".
+
+[[Click here for your final score->Final Score]] 
+
+
+:: Schedule Boardgame session {"position":"750,1725","size":"100,100"}
+$name: Hello Nora! You were talking about boardgames at lunch today. Would you like to schedule a boardgame weekend with the friends?
+Nora: Sure! Let me check my Agenda.
+
+[[Nora checks her Agenda]]
+
+<img src = "https://www.daysoftheyear.com/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Cheight=650%2Cq=70%2Csharpen=1%2Cwidth=956/wp-content/uploads/female-vlogger-travelling-through-city-making-phon-2021-12-09-17-02-04-utc-scaled.jpg" width="70%" height="70%" />
+
+
+:: Start {"position":"700,375","size":"100,100"}
+<<set $name to prompt("What's your name?","")>>
+Welcome $name! Let's learn more about the Dutch culture and the Netherlands
+
+[[Play!]]
+
+<img src="https://lp-cms-production.imgix.net/image_browser/Netherlands%20tulips%20windmillsRF.jpg?auto=format&q=75" 
+width="60%" 
+height="60%" />
+
+
+
+
+:: Start working on the assignment {"position":"600,875","size":"100,100"}
+You start working on your assignment. Your teammate proposes the use of an algorithm to solve an assignment question. However, you feel that it is not efficient, and there are better ways of solving the problem. What do you do?
+
+* [[Let it be, and go with what your teammate suggested]]
+* [[Be direct and let the team know what you think]]
+
+<img src =" https://www.myhubintranet.com/wp-content/uploads/2019/12/shutterstock_730521172.png" width="60%" 
+height="60%" />
+
+
+:: Take the tram {"position":"425,2525","size":"100,100"}
+It's always good to know about the public transport of the country you move to. Download the app NS and 9292 to get travel advices.
+
+[[Reached->Reached Nora's place with rainwear]] 
+<img src= "https://www.expatica.com/app/uploads/sites/3/2014/05/netherlands-transportation.jpg"  width="60%" height="60%" />
+
+
+:: Take the tram late {"position":"1112.5,2475","size":"100,100"}
+It's always good to know about the public transport of the country you move to. Download the app NS and 9292 to get travel advices.
+
+[[Reached->Reached Nora's place with rainwear late]] 
+<img src= "https://www.expatica.com/app/uploads/sites/3/2014/05/netherlands-transportation.jpg"  width="60%" height="60%" />
+
+
+:: Take the tram without rain wear {"position":"675,2525","size":"100,100"}
+It's always good to know about the public transport of the country you move to. Download the app NS and 9292 to get travel advices.
+
+You got out of the tram and started walking to Nors's house but now its raining heavily and you don't have the waterproof clothing.
+
+[[Reached->Reached Nora's place without rainwear]] 
+<img src= "https://www.expatica.com/app/uploads/sites/3/2014/05/netherlands-transportation.jpg"  width="60%" height="60%" />
+
+
+:: Take the tram without rain wear late {"position":"1437.5,2475","size":"100,100"}
+It's always good to know about the public transport of the country you move to. Download the app NS and 9292 to get travel advices.
+
+You got out of the tram and started walking to Nors's house but now its raining heavily and you don't have the waterproof clothing.
+
+[[Reached->Reached Nora's place without rainwear late]] 
+<img src= "https://www.expatica.com/app/uploads/sites/3/2014/05/netherlands-transportation.jpg"  width="60%" height="60%" />
+
+
+:: Tell your teammates you might not be able to finish it {"position":"700,1325","size":"100,100"}
+They understand, and give you another smaller task. You say that next week onwards you can contribute much more.
+
+//Your takeaway: Good job! If you can't do something be honest about it. Everyone will understand//
+
+[[Finish the assignment]]
+
+<img src="https://toastmasterscdn.azureedge.net/medias/images/pubs-and-magazine/2020-digital-magazine/12/speak-up-young-professional/14-young-professional.png?h=1060&w=1600&la=en&hash=696984603AE7A95E569A3136DA447D552C0A9A9F"   width="60%" 
+height="60%"/>
+
+
+:: Thank you for playing {"position":"875,3025","size":"100,100"}
+Thank you for playing!
+
+Now it's time for our questionnaire!
+<<set $radio to false>><<set $check to false>><<set $boxes to false>>
+<<set $score = 0>>
+[[Enter the questionnaire!->Question1]] 
+
+
+
+:: Welcome to the Netherlands! {"position":"700,250","size":"100,100"}
+Congratulations on securing an admit to TU Delft. You are about to move to a new country (and possibly even a new continent!) Exciting, isn't it? 
+As intriguing that can be, it can also be scary. It's a new language, new people, new faces and what not! New cultures and new behaviours are all part of this diverse world, and we are here to take you through a virtual world of simulated conversations and situations through which you can better understand the culture of The Netherlands, and feel better prepared when you reach here!
+
+<img src="https://broganabroad.com/wp-content/uploads/2020/05/Alkmaar-Netherlands.jpg" />
+
+
+[[Start]]
+
+
+:: You show up a few minutes early to the meeting to make a good impression. {"position":"825,750","size":"100,100"}
+You arrive at the meeting a few minutes early. Your Dutch colleagues are already there and seem surprised that you are early. They thank you for being punctual and offer you a cup of coffee. You chat for a few minutes before getting down to business. Your teammate proposes the use of an algorithm to solve an assignment question. However, you feel that it is not efficient, and there are better ways of solving the problem. 
+
+What do you do?
+
+* [[Let it be, and go with what your teammate suggested]]
+
+* [[Be direct and let the team know what you think]]
+
+<img src = "https://study.com/cimages/multimages/16/02197d15-4c3b-4c7d-93cf-0958784ef512_group_project.jpeg" width="60%" 
+height="60%" />
